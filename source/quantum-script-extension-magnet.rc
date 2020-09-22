@@ -1,0 +1,16 @@
+//
+// Quantum Script Extension Magnet
+//
+// Copyright (c) 2020 Grigore Stefan <g_stefan@yahoo.com>
+// Created by Grigore Stefan <g_stefan@yahoo.com>
+//
+// MIT License (MIT) <http://opensource.org/licenses/MIT>
+//
+
+#include "xyo-application-version--os-windows-rc.hpp"
+#include "quantum-script-extension-magnet-version.hpp"
+#include "quantum-script-extension-magnet-copyright.hpp"
+
+XYO_APPLICATION_VERSION_INFO(QUANTUM_SCRIPT_EXTENSION_MAGNET,"qse-magnet.dll","Quantum Script Extension Magnet")
+
+
