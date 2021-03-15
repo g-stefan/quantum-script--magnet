@@ -1,6 +1,6 @@
 --lib qse-magnet
 --project-base=quantum-script-extension-magnet
---source-is-separate
+--build-include
 --install-dev
 --install-inc=quantum-script-extension
 --use-project=quantum-script.static

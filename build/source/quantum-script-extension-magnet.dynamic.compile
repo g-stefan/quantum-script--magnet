@@ -1,6 +1,6 @@
 --dll qse-magnet
 --project-base=quantum-script-extension-magnet
---source-is-separate
+--build-include
 --dll-no-version
 --install-dev
 --install-inc=quantum-script-extension
