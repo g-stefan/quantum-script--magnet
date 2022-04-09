@@ -14,7 +14,7 @@
 #include "quantum-script-extension-magnet-license.hpp"
 #include "quantum-script-extension-magnet.hpp"
 #ifndef QUANTUM_SCRIPT_EXTENSION_MAGNET_NO_VERSION
-#include "quantum-script-extension-magnet-version.hpp"
+#	include "quantum-script-extension-magnet-version.hpp"
 #endif
 
 #include "quantum-script-variablenumber.hpp"
@@ -51,7 +51,6 @@
 #include "quantum-script-extension-openssl.hpp"
 #include "quantum-script-extension-pixel32.hpp"
 #include "quantum-script-extension-sshremote.hpp"
-
 
 //#define QUANTUM_SCRIPT_VM_DEBUG_RUNTIME
 
@@ -114,9 +113,7 @@ namespace Quantum {
 					//
 					executive->compileString("Script.requireExtension=Script.requireInternalExtension;");
 					//
-
 				};
-
 
 			};
 		};
@@ -128,4 +125,3 @@ extern "C" QUANTUM_SCRIPT_EXTENSION_MAGNET_EXPORT void quantumScriptExtension(Qu
 	Quantum::Script::Extension::Magnet::initExecutive(executive, extensionId);
 };
 #endif
-

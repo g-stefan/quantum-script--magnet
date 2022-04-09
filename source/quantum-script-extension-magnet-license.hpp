@@ -11,7 +11,7 @@
 #define QUANTUM_SCRIPT_EXTENSION_MAGNET_LICENSE_HPP
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_MAGNET__EXPORT_HPP
-#include "quantum-script-extension-magnet--export.hpp"
+#	include "quantum-script-extension-magnet--export.hpp"
 #endif
 
 namespace Quantum {

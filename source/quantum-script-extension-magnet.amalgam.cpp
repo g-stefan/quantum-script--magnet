@@ -12,6 +12,5 @@
 #include "quantum-script-extension-magnet-license.cpp"
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_MAGNET_NO_VERSION
-#include "quantum-script-extension-magnet-version.cpp"
+#	include "quantum-script-extension-magnet-version.cpp"
 #endif
-

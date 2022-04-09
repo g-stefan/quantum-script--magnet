@@ -11,23 +11,23 @@
 #define QUANTUM_SCRIPT_EXTENSION_MAGNET_HPP
 
 #ifndef QUANTUM_SCRIPT_HPP
-#include "quantum-script.hpp"
+#	include "quantum-script.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_MAGNET__EXPORT_HPP
-#include "quantum-script-extension-magnet--export.hpp"
+#	include "quantum-script-extension-magnet--export.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_MAGNET_COPYRIGHT_HPP
-#include "quantum-script-extension-magnet-copyright.hpp"
+#	include "quantum-script-extension-magnet-copyright.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_MAGNET_LICENSE_HPP
-#include "quantum-script-extension-magnet-license.hpp"
+#	include "quantum-script-extension-magnet-license.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_MAGNET_VERSION_HPP
-#include "quantum-script-extension-magnet-version.hpp"
+#	include "quantum-script-extension-magnet-version.hpp"
 #endif
 
 namespace Quantum {
