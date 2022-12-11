@@ -1,0 +1,43 @@
+{
+	"project": {
+		"name":"quantum-script--magnet",
+		"type":"xyo-cpp",
+		"make" : "lib-and-dll",
+		"SPDX-License-Identifier": "MIT",
+		"sourcePath" : "XYO/QuantumScript.Extension/Magnet",
+		"dependency" : [
+			"quantum-script",
+			"quantum-script--console",
+			"quantum-script--application",
+			"quantum-script--buffer",
+			"quantum-script--base16",
+			"quantum-script--base32",
+			"quantum-script--base64",
+			"quantum-script--crypt",
+			"quantum-script--csv",
+			"quantum-script--datetime",
+			"quantum-script--file",
+			"quantum-script--http",
+			"quantum-script--job",
+			"quantum-script--json",
+			"quantum-script--make",
+			"quantum-script--math",
+			"quantum-script--md5",
+			"quantum-script--processinteractive",
+			"quantum-script--random",
+			"quantum-script--sha256",
+			"quantum-script--sha512",
+			"quantum-script--shell",
+			"quantum-script--shellfind",
+			"quantum-script--socket",
+			"quantum-script--task",
+			"quantum-script--thread",
+			"quantum-script--url",
+			"quantum-script--applicationversion",
+			"quantum-script--xml",
+			"quantum-script--openssl",
+			"quantum-script--pixel32",
+			"quantum-script--sshremote"
+		]
+	}
+}
