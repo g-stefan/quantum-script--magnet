@@ -38,6 +38,8 @@
 			"quantum-script--openssl",
 			"quantum-script--pixel32",
 			"quantum-script--sshremote"
-		]
+		],
+		"hasRelease" : true,
+		"githubRelease" : true
 	}
 }
