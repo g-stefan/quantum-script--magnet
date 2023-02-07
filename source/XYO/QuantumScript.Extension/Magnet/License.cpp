@@ -8,7 +8,7 @@
 
 namespace XYO::QuantumScript::Extension::Magnet::License {
 
-		static const char *license_ =
+	static const char *license_ =
 	    "        MIT License\r\n"
 	    "\r\n"
 	    "Copyright (c) 2020-2023 Grigore Stefan <g_stefan@yahoo.com>\r\n"
@@ -42,6 +42,5 @@ namespace XYO::QuantumScript::Extension::Magnet::License {
 	const char *shortLicense() {
 		return shortLicense_;
 	};
-
 
 };

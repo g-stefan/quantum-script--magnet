@@ -56,41 +56,40 @@ namespace XYO::QuantumScript::Extension::Magnet {
 		executive->setExtensionVersion(extensionId, Extension::Magnet::Version::versionWithBuild());
 		executive->setExtensionPublic(extensionId, true);
 
-			Extension::Application::registerInternalExtension(executive);
-					Extension::Base16::registerInternalExtension(executive);
-					Extension::Base32::registerInternalExtension(executive);
-					Extension::Base64::registerInternalExtension(executive);
-					Extension::Buffer::registerInternalExtension(executive);
-					Extension::Console::registerInternalExtension(executive);
-					Extension::Crypt::registerInternalExtension(executive);
-					Extension::CSV::registerInternalExtension(executive);
-					Extension::DateTime::registerInternalExtension(executive);
-					Extension::File::registerInternalExtension(executive);
-					Extension::HTTP::registerInternalExtension(executive);
-					Extension::Job::registerInternalExtension(executive);
-					Extension::JSON::registerInternalExtension(executive);
-					Extension::Make::registerInternalExtension(executive);
-					Extension::Math::registerInternalExtension(executive);
-					Extension::MD5::registerInternalExtension(executive);
-					Extension::OpenSSL::registerInternalExtension(executive);
-					Extension::Pixel32::registerInternalExtension(executive);
-					Extension::ProcessInteractive::registerInternalExtension(executive);
-					Extension::Random::registerInternalExtension(executive);
-					Extension::SHA256::registerInternalExtension(executive);
-					Extension::SHA512::registerInternalExtension(executive);
-					Extension::Shell::registerInternalExtension(executive);
-					Extension::ShellFind::registerInternalExtension(executive);
-					Extension::Socket::registerInternalExtension(executive);
-					Extension::SSHRemote::registerInternalExtension(executive);
-					Extension::Task::registerInternalExtension(executive);
-					Extension::Thread::registerInternalExtension(executive);
-					Extension::URL::registerInternalExtension(executive);
-					Extension::ApplicationVersion::registerInternalExtension(executive);
-					Extension::XML::registerInternalExtension(executive);
+		Extension::Application::registerInternalExtension(executive);
+		Extension::Base16::registerInternalExtension(executive);
+		Extension::Base32::registerInternalExtension(executive);
+		Extension::Base64::registerInternalExtension(executive);
+		Extension::Buffer::registerInternalExtension(executive);
+		Extension::Console::registerInternalExtension(executive);
+		Extension::Crypt::registerInternalExtension(executive);
+		Extension::CSV::registerInternalExtension(executive);
+		Extension::DateTime::registerInternalExtension(executive);
+		Extension::File::registerInternalExtension(executive);
+		Extension::HTTP::registerInternalExtension(executive);
+		Extension::Job::registerInternalExtension(executive);
+		Extension::JSON::registerInternalExtension(executive);
+		Extension::Make::registerInternalExtension(executive);
+		Extension::Math::registerInternalExtension(executive);
+		Extension::MD5::registerInternalExtension(executive);
+		Extension::OpenSSL::registerInternalExtension(executive);
+		Extension::Pixel32::registerInternalExtension(executive);
+		Extension::ProcessInteractive::registerInternalExtension(executive);
+		Extension::Random::registerInternalExtension(executive);
+		Extension::SHA256::registerInternalExtension(executive);
+		Extension::SHA512::registerInternalExtension(executive);
+		Extension::Shell::registerInternalExtension(executive);
+		Extension::ShellFind::registerInternalExtension(executive);
+		Extension::Socket::registerInternalExtension(executive);
+		Extension::SSHRemote::registerInternalExtension(executive);
+		Extension::Task::registerInternalExtension(executive);
+		Extension::Thread::registerInternalExtension(executive);
+		Extension::URL::registerInternalExtension(executive);
+		Extension::ApplicationVersion::registerInternalExtension(executive);
+		Extension::XML::registerInternalExtension(executive);
 
-					//
-					executive->compileString("Script.requireExtension=Script.requireInternalExtension;");
-					
+		//
+		executive->compileString("Script.requireExtension=Script.requireInternalExtension;");
 	};
 
 };
