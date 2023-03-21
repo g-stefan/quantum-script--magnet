@@ -49,7 +49,7 @@ namespace XYO::QuantumScript::Extension::Magnet {
 
 	void initExecutive(Executive *executive, void *extensionId) {
 		String info = "Magnet\r\n";
-		info << License::shortLicense();
+		info << License::shortLicense().c_str();
 
 		executive->setExtensionName(extensionId, "Magnet");
 		executive->setExtensionInfo(extensionId, info);

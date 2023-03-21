@@ -13,8 +13,8 @@
 
 namespace XYO::QuantumScript::Extension::Magnet::License {
 
-	XYO_QUANTUMSCRIPT_EXTENSION_MAGNET_EXPORT const char *license();
-	XYO_QUANTUMSCRIPT_EXTENSION_MAGNET_EXPORT const char *shortLicense();
+	XYO_QUANTUMSCRIPT_EXTENSION_MAGNET_EXPORT std::string license();
+	XYO_QUANTUMSCRIPT_EXTENSION_MAGNET_EXPORT std::string shortLicense();
 
 };
 
