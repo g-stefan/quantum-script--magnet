@@ -87,9 +87,6 @@ namespace XYO::QuantumScript::Extension::Magnet {
 		Extension::URL::registerInternalExtension(executive);
 		Extension::ApplicationVersion::registerInternalExtension(executive);
 		Extension::XML::registerInternalExtension(executive);
-
-		//
-		executive->compileString("Script.requireExtension=Script.requireInternalExtension;");
 	};
 
 };

@@ -1,6 +1,6 @@
 # Quantum Script Extension Magnet
 
-## Quantum Script Extensions loaded as internal:
+## Quantum Script Extensions internal registered:
 
 ```javascript
 Magnet
