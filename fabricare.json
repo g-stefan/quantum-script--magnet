@@ -1,5 +1,6 @@
 {
 	"solution": {
+		"namespace" : "xyo",
 		"name" : "quantum-script--magnet",
 		"type" : "xyo-cpp",
 		"projects": [
@@ -41,6 +42,15 @@
 					"quantum-script--openssl",
 					"quantum-script--pixel32",
 					"quantum-script--sshremote"
+				]
+			},
+			{
+				"name" : "test.01",
+				"make" : "exe",
+				"category" : "test",
+				"SPDX-License-Identifier": "Unlicense",
+				"dependency" : [
+					"quantum-script--magnet"
 				]
 			}
 		]
